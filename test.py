@@ -28,16 +28,16 @@ class Student(Person):
 
 person1 = Person("Andrey")
 print(person1)
-print("------------")
+print("-------------")
 
 person1.set("Alex")
 print(person1)
-print("------------")
+print("-------------")
 
 person2 = Student("Andrey")
 print(person2)
-print("------------")
+print("-------------")
 
 person2.set("Artur", 3)
 print(person2)
-print("------------")
+print("-------------")
